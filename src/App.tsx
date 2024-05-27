@@ -7,7 +7,7 @@ import { deepOrange, deepPurple} from '@mui/material/colors';
 import { Box, Slider, Stack } from '@mui/material';
 import { VolumeDown, VolumeUp } from '@mui/icons-material';
 import Header from '../src/components/Header';
-import SliderComponent from './components/SliderComponent';
+import CarouselSlider from '../src/components/CarouselSlider';
 
 function App() {
   const [value, setValue] = React.useState<number>(30);
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App-header">
         <Header />
-        <SliderComponent />
+        <CarouselSlider />
     </div>
   );
 }
