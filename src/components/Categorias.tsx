@@ -64,7 +64,7 @@ export default function App() {
                   textTransform: "uppercase",
                 }}
               >
-                Best in <br /> Gaming <br /> History
+                SANDBOX
               </Typography>
             </Box>
           </Box>
@@ -100,7 +100,7 @@ export default function App() {
                   textTransform: "uppercase",
                 }}
               >
-                Best in <br /> Gaming <br /> History
+                Platform
               </Typography>
             </Box>
           </Box>
@@ -136,7 +136,7 @@ export default function App() {
                   textTransform: "uppercase",
                 }}
               >
-                Best in <br /> Gaming <br /> History
+                Shooter
               </Typography>
             </Box>
           </Box>
@@ -172,43 +172,7 @@ export default function App() {
                   textTransform: "uppercase",
                 }}
               >
-                Best in <br /> Gaming <br /> History
-              </Typography>
-            </Box>
-          </Box>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card sx={{ width: "300px", height: "300px", position: "relative" }}>
-            <CardMedia
-              sx={{ width: "100%", height: "100%", objectFit: "cover" }}
-              image={cat1}
-              title="green iguana"
-            />
-          </Card>
-          <Box
-            sx={{
-              position: "absolute",
-              width: "100%",
-              height: "100%",
-              background: "#00000064",
-              color: "white",
-            }}
-          >
-            <Box
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "inherit",
-              }}
-            >
-              <Typography
-                sx={{
-                  fontWeight: "bold",
-                  textTransform: "uppercase",
-                }}
-              >
-                Best in <br /> Gaming <br /> History
+                Action
               </Typography>
             </Box>
           </Box>
