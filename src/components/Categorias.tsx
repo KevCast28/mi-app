@@ -34,10 +34,24 @@ export default function App() {
         navigation={true}
         loop={true}
         modules={[Pagination, Navigation]}
+        breakpoints={{
+          640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+          },
+          768: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+          },
+          1024: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+          },
+      }}
         className="mySwiper"
       >
         <SwiperSlide>
-          <Card sx={{ width: "300px", height: "300px", position: "relative" }}>
+          <Card sx={{ width: "100%", height: "300px", position: "relative" }}>
             <CardMedia
               sx={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "20px" }}
               image={sandboxImg}
@@ -73,7 +87,7 @@ export default function App() {
           </Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Card sx={{ width: "300px", height: "300px", position: "relative" }}>
+          <Card sx={{ width: "100%", height: "300px", position: "relative" }}>
             <CardMedia
               sx={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "20px" }}
               image={platformImg}
@@ -109,7 +123,7 @@ export default function App() {
           </Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Card sx={{ width: "300px", height: "300px", position: "relative" }}>
+          <Card sx={{ width: "100%", height: "300px", position: "relative" }}>
             <CardMedia
               sx={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "20px" }}
               image={shooterImg}
@@ -145,7 +159,7 @@ export default function App() {
           </Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Card sx={{ width: "300px", height: "300px", position: "relative" }}>
+          <Card sx={{ width: "100%", height: "300px", position: "relative" }}>
             <CardMedia
               sx={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "20px"}}
               image={actionImg}
