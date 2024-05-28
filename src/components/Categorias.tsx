@@ -9,7 +9,10 @@ import "swiper/css/pagination";
 
 import "../assets/css/styleSwipper.css";
 
-import cat1 from "../img/slider1.png";
+import sandboxImg from "../img/sandboxImg.png";
+import platformImg from "../img/platformImg.png";
+import shooterImg from "../img/shooterImg.png";
+import actionImg from "../img/actionImg.png";
 
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
@@ -24,7 +27,7 @@ export default function App() {
     <Container sx={{ margin: "50px auto" }}>
       <Swiper
         slidesPerView={4}
-        spaceBetween={30}
+        spaceBetween={15}
         pagination={{
           clickable: true,
         }}
@@ -36,8 +39,8 @@ export default function App() {
         <SwiperSlide>
           <Card sx={{ width: "300px", height: "300px", position: "relative" }}>
             <CardMedia
-              sx={{ width: "100%", height: "100%", objectFit: "cover" }}
-              image={cat1}
+              sx={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "20px" }}
+              image={sandboxImg}
               title="green iguana"
             />
           </Card>
@@ -48,6 +51,7 @@ export default function App() {
               height: "100%",
               background: "#00000064",
               color: "white",
+              borderRadius: "20px"
             }}
           >
             <Box
@@ -61,10 +65,9 @@ export default function App() {
               <Typography
                 sx={{
                   fontWeight: "bold",
-                  textTransform: "uppercase",
                 }}
               >
-                SANDBOX
+                Sandbox
               </Typography>
             </Box>
           </Box>
@@ -72,8 +75,8 @@ export default function App() {
         <SwiperSlide>
           <Card sx={{ width: "300px", height: "300px", position: "relative" }}>
             <CardMedia
-              sx={{ width: "100%", height: "100%", objectFit: "cover" }}
-              image={cat1}
+              sx={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "20px" }}
+              image={platformImg}
               title="green iguana"
             />
           </Card>
@@ -84,6 +87,7 @@ export default function App() {
               height: "100%",
               background: "#00000064",
               color: "white",
+              borderRadius: "20px"
             }}
           >
             <Box
@@ -97,7 +101,6 @@ export default function App() {
               <Typography
                 sx={{
                   fontWeight: "bold",
-                  textTransform: "uppercase",
                 }}
               >
                 Platform
@@ -108,8 +111,8 @@ export default function App() {
         <SwiperSlide>
           <Card sx={{ width: "300px", height: "300px", position: "relative" }}>
             <CardMedia
-              sx={{ width: "100%", height: "100%", objectFit: "cover" }}
-              image={cat1}
+              sx={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "20px" }}
+              image={shooterImg}
               title="green iguana"
             />
           </Card>
@@ -120,6 +123,7 @@ export default function App() {
               height: "100%",
               background: "#00000064",
               color: "white",
+              borderRadius: "20px"
             }}
           >
             <Box
@@ -133,7 +137,6 @@ export default function App() {
               <Typography
                 sx={{
                   fontWeight: "bold",
-                  textTransform: "uppercase",
                 }}
               >
                 Shooter
@@ -144,8 +147,8 @@ export default function App() {
         <SwiperSlide>
           <Card sx={{ width: "300px", height: "300px", position: "relative" }}>
             <CardMedia
-              sx={{ width: "100%", height: "100%", objectFit: "cover" }}
-              image={cat1}
+              sx={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "20px"}}
+              image={actionImg}
               title="green iguana"
             />
           </Card>
@@ -156,6 +159,7 @@ export default function App() {
               height: "100%",
               background: "#00000064",
               color: "white",
+              borderRadius: "20px"
             }}
           >
             <Box
@@ -169,7 +173,6 @@ export default function App() {
               <Typography
                 sx={{
                   fontWeight: "bold",
-                  textTransform: "uppercase",
                 }}
               >
                 Action
